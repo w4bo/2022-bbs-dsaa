@@ -6,7 +6,7 @@ Matteo Francia, PhD.
 
 ## Integrated Analytics Lab
 
-Bologna Business School, BBS.
+Bologna Business School, BBS (online).
 
 | Day |Time slot|
 |---|---|

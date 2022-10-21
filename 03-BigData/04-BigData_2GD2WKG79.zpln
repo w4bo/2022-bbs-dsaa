@@ -1,0 +1,642 @@
+{
+  "paragraphs": [
+    {
+      "text": "sc // the spark context (i.e., the application) has been already initialized",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:26.176",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626184608976_671692505",
+      "id": "paragraph_1626184608976_671692505",
+      "dateCreated": "2021-07-13 13:56:48.976",
+      "dateStarted": "2021-07-16 12:37:26.209",
+      "dateFinished": "2021-07-16 12:37:26.375",
+      "status": "FINISHED"
+    },
+    {
+      "text": "sc // from the spark context\n    .getConf.getAll // get the configuration\n    .filter(_._1.startsWith(\"spark\")) // keep only the string regarding sparks\n    .foreach(println(_)) // ... and print them",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:26.400",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626184950221_668055625",
+      "id": "paragraph_1626184950221_668055625",
+      "dateCreated": "2021-07-13 14:02:30.221",
+      "dateStarted": "2021-07-16 12:37:26.428",
+      "dateFinished": "2021-07-16 12:37:26.708",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// let\u0027s create a simple example\nval riddle \u003d \"sopra la panca la capra campa sotto la panca la capra crepa\"",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:26.722",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625738803400_1745387905",
+      "id": "paragraph_1625738803400_1745387905",
+      "dateCreated": "2021-07-08 10:06:43.401",
+      "dateStarted": "2021-07-16 12:37:26.777",
+      "dateFinished": "2021-07-16 12:37:26.959",
+      "status": "FINISHED"
+    },
+    {
+      "text": "val rdd \u003d sc.parallelize(riddle.split(\" \")) // create an RDD from the `riddle` string\n// each tuple of the RDD corresponds to a single word\n\n// why is an RDD and not its result returned?",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:27.057",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625738922982_961760574",
+      "id": "paragraph_1625738922982_961760574",
+      "dateCreated": "2021-07-08 10:08:42.982",
+      "dateStarted": "2021-07-16 12:37:27.088",
+      "dateFinished": "2021-07-16 12:37:27.303",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Actions\nrdd.collect() // compute the RDD",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:27.380",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d16"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625738959129_821495934",
+      "id": "paragraph_1625738959129_821495934",
+      "dateCreated": "2021-07-08 10:09:19.129",
+      "dateStarted": "2021-07-16 12:37:27.407",
+      "dateFinished": "2021-07-16 12:37:27.575",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// Transformations\nrdd\n    .map(s \u003d\u003e s.toUpperCase()) // transform each string in upper case (remember: map returns a new RDD with the same cardinality)\n    .filter(s \u003d\u003e s.startsWith(\"C\")) // keep only the strings beginning with \"C\" (remember: filter returns a new RDD with the same or smaller cardinality)\n    .flatMap(s \u003d\u003e s.toList) // explode each string into its characters (remember: flatMap returns a new RDD with the any cardinality)\n    .collect()",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:27.605",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d17"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625739256540_787795271",
+      "id": "paragraph_1625739256540_787795271",
+      "dateCreated": "2021-07-08 10:14:16.541",
+      "dateStarted": "2021-07-16 12:37:27.627",
+      "dateFinished": "2021-07-16 12:37:27.927",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// A simple word count\nrdd\n    .map(s \u003d\u003e (s, 1)) // map each word to a tuple (word, 1); each tuple represent the count associate with a word\n    .reduceByKey((a, b) \u003d\u003e a + b) // group all the tuples with the same word and sum the counts\n    .sortBy(x \u003d\u003e x._2) // sort tuples by count\n    .collect() // get the values",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:27.961",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d18"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d19"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625739017687_262430082",
+      "id": "paragraph_1625739017687_262430082",
+      "dateCreated": "2021-07-08 10:10:17.688",
+      "dateStarted": "2021-07-16 12:37:28.027",
+      "dateFinished": "2021-07-16 12:37:28.509",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// create a DataFrame from a local file\nval foodmartDataset \u003d\n    spark\n        .read // read the file\n        .format(\"csv\") // which has a csv (comma separated value) format\n        .option(\"header\", \"true\") // and also contains a header\n        .load(\"/opt/zeppelin/notebook/datasets/foodmart.csv\") // specify the file location\n        .select(col(\"Product (Category)\").as(\"product\"), col(\"subcategory\"), col(\"category\"), col(\"unit sales\").cast(\"int\")) // select some of its columns\n        .cache() // why caching?",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:28.527",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d20"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625842324384_1191242572",
+      "id": "paragraph_1625842324384_1191242572",
+      "dateCreated": "2021-07-09 14:52:04.384",
+      "dateStarted": "2021-07-16 12:37:28.549",
+      "dateFinished": "2021-07-16 12:37:29.075",
+      "status": "FINISHED"
+    },
+    {
+      "text": "foodmartDataset.show() // and show some of its tuples",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:29.149",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d21"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626186059682_1913164141",
+      "id": "paragraph_1626186059682_1913164141",
+      "dateCreated": "2021-07-13 14:20:59.682",
+      "dateStarted": "2021-07-16 12:37:29.173",
+      "dateFinished": "2021-07-16 12:37:29.507",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// show only the sales for category \u003d \u0027Pizza\u0027\nfoodmartDataset\n    .filter(\"category \u003d \u0027Pizza\u0027\") // apply a selection clause\n    .show(20, false)",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:29.578",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d22"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625843117680_1979385895",
+      "id": "paragraph_1625843117680_1979385895",
+      "dateCreated": "2021-07-09 15:05:17.680",
+      "dateStarted": "2021-07-16 12:37:29.607",
+      "dateFinished": "2021-07-16 12:37:29.796",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// count all the product sales\nval allSales \u003d foodmartDataset.count()\n\n// count the distinct products\nval distinctProducts \u003d \n    foodmartDataset\n        .select(\"product\") // select the products only\n        .distinct() // get the distinct values\n        .count() // and count them\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:29.799",
+      "progress": 56,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d23"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d24"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626186325649_1621764430",
+      "id": "paragraph_1626186325649_1621764430",
+      "dateCreated": "2021-07-13 14:25:25.649",
+      "dateStarted": "2021-07-16 12:37:29.847",
+      "dateFinished": "2021-07-16 12:37:34.666",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// return the amount of sales by category\nfoodmartDataset // given the dataframe\n    .groupBy(\"category\") // group all tuples by category\n    .sum(\"unit sales\") // sum the unit sales\n    .orderBy(\"sum(unit sales)\") // and sort the result\n    .show() // compute the result",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:34.751",
+      "progress": 34,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d25"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1625843495878_2127914479",
+      "id": "paragraph_1625843495878_2127914479",
+      "dateCreated": "2021-07-09 15:11:35.878",
+      "dateStarted": "2021-07-16 12:37:34.776",
+      "dateFinished": "2021-07-16 12:37:35.392",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// get the number of distinct products with category \u003d \u0027Pizza\u0027\nfoodmartDataset\n    .filter(\"category \u003d \u0027Pizza\u0027\") // filter pizzas\n    .select(\"product\") // select the products only\n    .distinct() // get the distinct values\n    .count() // and count them",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:35.477",
+      "progress": 42,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d26"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626185549421_406391997",
+      "id": "paragraph_1626185549421_406391997",
+      "dateCreated": "2021-07-13 14:12:29.421",
+      "dateStarted": "2021-07-16 12:37:35.498",
+      "dateFinished": "2021-07-16 12:37:36.281",
+      "status": "FINISHED"
+    },
+    {
+      "text": "// get the average sales by category\nfoodmartDataset\n    .groupBy(\"category\") // select the products only\n    .avg(\"unit sales\") // average the unit sales\n    .show()",
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:36.298",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d27"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d28"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d29"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d30"
+            },
+            {
+              "jobUrl": "http://d2d9186c0dd2:4040/jobs/job?id\u003d31"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626185613032_1090434638",
+      "id": "paragraph_1626185613032_1090434638",
+      "dateCreated": "2021-07-13 14:13:33.032",
+      "dateStarted": "2021-07-16 12:37:36.328",
+      "dateFinished": "2021-07-16 12:37:36.840",
+      "status": "FINISHED"
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "2021-07-16 12:37:36.929",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1626186500562_1097934745",
+      "id": "paragraph_1626186500562_1097934745",
+      "dateCreated": "2021-07-13 14:28:20.562",
+      "status": "FINISHED"
+    }
+  ],
+  "name": "04-BigData",
+  "id": "2GD2WKG79",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {
+    "isRunning": false
+  }
+}

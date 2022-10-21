@@ -1,5 +1,11 @@
-findspark
-matplotlib
-numpy
-pandas
-scikit-learn
+numpy==1.23.4
+pandas==1.5.1
+scikit-learn==1.1.2
+scipy==1.9.3
+sklearn==0.0
+notebook==6.5.1
+matplotlib==3.6.1
+seaborn==0.11.2
+findspark==2.0.1
+pyspark==3.2.1
+jupyter==1.0.0

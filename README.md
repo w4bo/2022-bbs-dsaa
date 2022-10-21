@@ -8,7 +8,7 @@ Matteo Francia, PhD.
 
 Bologna Business School, BBS.
 
-| Day |   |
+| Day |Time slot|
 |---|---|
 |04/11/2022|14:00 - 18:00|
 |05/11/2022|9:00 - 13:00|

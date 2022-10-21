@@ -1,5 +1,7 @@
 # Data Strategy & Business Analytics
 
+Access this content at: https://github.com/w4bo/2022-bbs-dsaa
+
 ## Whoami 
 
 Matteo Francia, PhD.

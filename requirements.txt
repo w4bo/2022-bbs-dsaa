@@ -1,0 +1,5 @@
+findspark
+matplotlib
+numpy
+pandas
+scikit-learn

@@ -1,0 +1,29 @@
+name: "build"
+on: [push, pull_request]
+jobs:
+  launch-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          architecture: 'x64'
+      - name: Run the notebooks
+        run: |
+          cd notebooks
+          sudo apt-get install openjdk-8-jdk-headless -qq
+          wget -q http://archive.apache.org/dist/spark/spark-3.1.1/spark-3.1.1-bin-hadoop3.2.tgz
+          wget http://big.csr.unibo.it/projects/nosql-datasets/2022-bbs-dsaa-foodmart.csv
+          tar xf spark-3.1.1-bin-hadoop3.2.tgz
+          pip install -r requirements.txt
+          for f in *.ipynb; 
+            do echo "Processing $f file...";
+            jupyter nbconvert --execute --to notebook --inplace $f
+            jupyter nbconvert --to script $f
+            extension="${f##*.}"
+            filename="${f%.*}"
+            ipython $filename.py
+          done
+          ls -las
+          pip freeze

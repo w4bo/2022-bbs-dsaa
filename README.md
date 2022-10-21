@@ -40,9 +40,9 @@ To run this lab you need to install
 
 How many of you are familiar with...
 
-- Coding (`python`, `scala`)
+- Coding (`python`)
 - Data manipulation (`pandas`), and machine learning (`sklearn`)
-- Big data processing (`spark`) 
+- Big data processing (`pyspark`) 
 - OLAP and data visualization (`tableau`)
 
 Besides Tableau, all the necessary software is shipped on Google Colab

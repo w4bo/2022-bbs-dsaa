@@ -11,7 +11,6 @@ jobs:
           architecture: 'x64'
       - name: Run the notebooks
         run: |
-          cd notebooks
           sudo apt-get install openjdk-8-jdk-headless -qq
           wget -q http://archive.apache.org/dist/spark/spark-3.1.1/spark-3.1.1-bin-hadoop3.2.tgz
           wget http://big.csr.unibo.it/projects/nosql-datasets/2022-bbs-dsaa-foodmart.csv

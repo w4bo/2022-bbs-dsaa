@@ -11,9 +11,9 @@ Bologna Business School, BBS.
 Day 1 (4h) - 04/11/2022 (14:00 - 18:00)
 Day 2 (4h) - 05/11/2022 (9:00 - 13:00)
 
-Contact: Valentina Lodi 
+Contact: Valentina Lodi <valentina.lodi@unibo.it>
 
-Link 
+Link: https://www.bbs.unibo.it/open-program/big-data-analytics-2/
 
 ### Topic
 

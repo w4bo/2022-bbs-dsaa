@@ -6,10 +6,13 @@ Matteo Francia, PhD.
 
 ## Integrated Analytics Lab
 
-Bologna Business School, BBS.
+Bologna Business School, BBS (online).
 
-Day 1 (4h) - 04/11/2022 (14:00 - 18:00)
-Day 2 (4h) - 05/11/2022 (9:00 - 13:00)
+| Day |Time slot|
+|---|---|
+|04/11/2022|14:00 - 18:00|
+|05/11/2022|9:00 - 13:00|
+
 
 Contact: Valentina Lodi <valentina.lodi@unibo.it>
 

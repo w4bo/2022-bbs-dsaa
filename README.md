@@ -38,11 +38,8 @@ Each steps covers both theory and practice.
 To run this lab you need to install
 - Tableau
 
+All the necessary software is shipped on notebooks on Google Colab
+
 How many of you are familiar with...
 
-- Coding (`python`)
-- Data manipulation (`pandas`), and machine learning (`sklearn`)
-- Big data processing (`pyspark`) 
-- OLAP and data visualization (`tableau`)
-
-Besides Tableau, all the necessary software is shipped on Google Colab
+https://forms.gle/7pfdCkqcPF6VFGD89

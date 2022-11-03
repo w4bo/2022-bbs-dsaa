@@ -4,7 +4,7 @@ Access this content at: https://github.com/w4bo/2022-bbs-dsaa
 
 ## Whoami 
 
-Matteo Francia, PhD.
+[Matteo Francia, Ph.D.](https://www.unibo.it/sitoweb/m.francia/en)
 
 ## Integrated Analytics Lab
 
@@ -12,11 +12,11 @@ Bologna Business School, BBS (online).
 
 | Day |Time slot|
 |---|---|
-|04/11/2022|14:00 - 18:00|
-|05/11/2022|9:00 - 13:00|
+|04/11/2022|14:15 - 18:00|
+|05/11/2022|9:15 - 13:00|
 
 
-Contact: Valentina Lodi <valentina.lodi@unibo.it>
+Contact: Valentina Lodi \<valentina.lodi@unibo.it\>
 
 Link: https://www.bbs.unibo.it/open-program/big-data-analytics-2/
 
@@ -27,8 +27,8 @@ A journey through the main technologies in the analytics field: from the prepara
 This lab will cover:
 
 - Data cleaning and preprocessing (hands on Python and Pandas)
-- Machine learning (hands on Python and Sklearn)
-- Big data elaboration (hands on Scala and Spark)
+- Machine learning (hands on Sklearn)
+- Big data elaboration (hands PySpark)
 - OLAP and data visualization (hands on Tableau)
 
 Each steps covers both theory and practice.

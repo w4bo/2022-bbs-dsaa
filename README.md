@@ -28,7 +28,7 @@ This lab will cover:
 
 - Data cleaning and preprocessing (hands on Python and Pandas)
 - Machine learning (hands on Sklearn)
-- Big data elaboration (hands PySpark)
+- Big data elaboration (hands on PySpark)
 - OLAP and data visualization (hands on Tableau)
 
 Each steps covers both theory and practice.

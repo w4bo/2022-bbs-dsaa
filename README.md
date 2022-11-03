@@ -31,15 +31,14 @@ This lab will cover:
 - Big data elaboration (hands on PySpark)
 - OLAP and data visualization (hands on Tableau)
 
-Each steps covers both theory and practice.
+Each steps covers both theory and practice. 
+
+How familiar are you with these topics? 
+https://forms.gle/7pfdCkqcPF6VFGD89
 
 ## Technical requirements
 
 To run this lab you need to install
 - Tableau
 
-All the necessary software is shipped on notebooks on Google Colab
-
-How many of you are familiar with...
-
-https://forms.gle/7pfdCkqcPF6VFGD89
+The remaining materials are shipped on Google Colab

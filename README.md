@@ -36,6 +36,13 @@ Each steps covers both theory and practice.
 How familiar are you with these topics? 
 https://forms.gle/7pfdCkqcPF6VFGD89
 
+### Link to the Colab Notebooks
+
+0. [Python fundamentals](https://colab.research.google.com/drive/1q99ZnSq-khatJkH0lDHfWYf_SHPJzH3E?usp=sharing)
+0. [Data Preprocessing](https://colab.research.google.com/drive/1y4CHiGRL7Ue_oa7FU98uXnolEL8zx7RL?usp=sharing)
+0. [Machine Learning](https://colab.research.google.com/drive/1PEgZV8aehZwT_Ze_3z6gAQUQxc5SGnRD?usp=sharing)
+0. [Big data](https://colab.research.google.com/drive/1iuQK5lj8PAccLKcWAktRsrJh8o6WQuyE?usp=sharing)
+
 ## Technical requirements
 
 To run this lab you need to install

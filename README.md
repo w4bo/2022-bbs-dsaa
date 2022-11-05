@@ -2,6 +2,10 @@
 
 Access this content at: https://github.com/w4bo/2022-bbs-dsaa
 
+To download the content:
+
+![image](https://user-images.githubusercontent.com/18005592/200109946-b829943e-4b98-404a-b2ec-38c7e2cb5ec7.png)
+
 ## Whoami 
 
 [Matteo Francia, Ph.D.](https://www.unibo.it/sitoweb/m.francia/en)
